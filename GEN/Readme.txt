@@ -30,7 +30,7 @@ Workflow
 
 You open the GEN.xlsx file, goto open box and hit Update
 
-This opens the .obx file embeeded in the metadata of GEN.xlsx (it does not open GEN.obx - as abobe this is for back up)
+This opens the .obx file embeeded in the metadata of GEN.xlsx (it does not open GEN.obx - as above this is for back up)
 
 You make some model changes then rebuild your workbook which recreates GEN.xlsx
 
@@ -38,7 +38,7 @@ You make some model changes then rebuild your workbook which recreates GEN.xlsx
 
 You then upload this to SQRL you made some changes in SQRL including to the dashbboard files.
 
-You export teh spreadsheet back out to GEN-SQR so you can do some more work on them model
+You export the spreadsheet back out to GEN-SQR so you can do some more work on them model
 
 Unfortuntaely there is a defect in SQRL which means it strips out the .obx meta data when you export, which means you can't update in OpenBox.
 
@@ -59,6 +59,5 @@ Changes to dashboard only ever get made in SQRL and exported. All other changes 
 
 TODO
 
-need to iterate through multiple dashboard sheets
 
 
