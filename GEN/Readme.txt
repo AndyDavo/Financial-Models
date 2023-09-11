@@ -53,11 +53,12 @@ REMEMBER
 
 Changes to dashboard only ever get made in SQRL and exported. All other changes are made in OpenBox
 
-
+Squirrel can't handle spills from dynamic arrays, so if you use a named range it going to bring all the contents back as an array into one cell - this is bad so don't use them
 
 
 
 TODO
+
 
 
 
