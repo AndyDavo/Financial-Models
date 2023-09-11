@@ -1,13 +1,9 @@
 This file explains how the files in this folder support the workflow between Squirrel365 and Openbox.
 
 
-DASH.xlsx
+GEN-MERGE.xlsx
 
-This file contains the template Dashbboard Files for the generic GEN project.
-
-These files are used to by Squirrel to pass data to openbox and get data from OpenBox - is uses named ranges to prevent things from breaking.
-
-Is also contains the MERGE macro (more on this later)
+This file contains the MERGE macro (more on this later)
 
 GEN.xlsx
 
@@ -19,9 +15,9 @@ This is the generic openbox model, the one that you use is actuall embedded in G
 
 GEN-SQR.xlsx
 
-This is the file that you used to export to from SQRL when you have made changes to the dashboard files in SQRL
+This is the file that you used to export to from SQRL when you have made changes to the dashboard files in SQRL, you then run the merge macro, which merges the changes made to the SQRL sheets back into GEN.xlsx
 
-SQR-OBXSQR
+SQR.sqrl
 
 This is the generic squirrel file
 
@@ -51,6 +47,8 @@ You can then open GEN.xlsx, goto the openbox menu item, hit update and your chan
 
 REMEMBER
 
+you need to configure the linkinputs function in GEN-MERGE to only link up the input cells inInpC that you want linking
+
 Changes to dashboard only ever get made in SQRL and exported. All other changes are made in OpenBox
 
 Squirrel can't handle spills from dynamic arrays, so if you use a named range it going to bring all the contents back as an array into one cell - this is bad so don't use them
@@ -59,6 +57,10 @@ Squirrel can't handle spills from dynamic arrays, so if you use a named range it
 
 TODO
 
+possible delete GEN-SQR after each MERGE
+
+I3:68 InputBindings
+K14:79 inpC
 
 
 
