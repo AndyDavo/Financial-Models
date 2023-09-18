@@ -59,16 +59,8 @@ TODO
 
 possible delete GEN-SQR after each MERGE
 
-
-
-
-
-
-
-
-
-
-
+I3:68 InputBindings
+K14:79 inpC
 
 
 
