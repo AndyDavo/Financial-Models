@@ -61,6 +61,11 @@ possible delete GEN-SQR after each MERGE
 
 
 
+THINGS WHEN SETTING UP A NEW PORJECT
+
+put the files in the directory
+
+open the powershell file and put the project code in, then run the file, renaming everything
 
 
 
